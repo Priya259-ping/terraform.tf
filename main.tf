@@ -8,6 +8,6 @@ resource "aws_instance" "web" {
   key_name = "Priya"
 vpc_security_group_ids = ["sg-0199005f141190f84"]
   tags = {
-    Name = "hari-web"
+    Name = "TERRAFORM-HCP"
   }
   }
